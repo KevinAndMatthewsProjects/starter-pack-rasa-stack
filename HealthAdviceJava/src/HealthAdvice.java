@@ -12,7 +12,7 @@ public class HealthAdvice {
 			"Prevent dehydration by drinking at least 2 liters of water everyday!",
 			"Be sure to get at least 8 hours of sleep for an energized morning!",
 			"Eat vegetables! They contain plenty of vitamins, minerals, and antioxidants!",
-			"Avoid smoking to reduce risk of lung cancer."
+			"Avoid smoking to reduce risk of lung cancer.",
 			"Reduce intake of red meats to prevent cholesterol buildup."
 
 		};
