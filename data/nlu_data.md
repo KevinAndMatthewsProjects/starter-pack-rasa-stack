@@ -34,6 +34,14 @@
 - hello is anybody there
 - hello robot
 
+## intent:stock
+- stock AAPL
+- stock GOOGL
+- stock AMZN
+- stock
+- stock GLD
+- stock IBM
+
 ## intent:thanks
 - Thanks
 - Thank you
