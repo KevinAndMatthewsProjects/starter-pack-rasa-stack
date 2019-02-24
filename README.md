@@ -1,15 +1,15 @@
-﻿#Otto the Otter Slack Bot
+
+# Otto the Otter Slack Bot
 Proudly built from the ground up with purely Open Source API's.
 
-##Developers: 
-
+## Developers:
 Kevin Palani:
  Cross-compatible language development framework
 
 Matthew Pham:
  Otto the Otter Bot development
 
-##Special Thanks:
+## Special Thanks:
 Jackie Giang (Incredible artwork)
 Nathaniel Nguyen, Jacinda Chen, Conrad Ku (Having the patience to work with us and improve our project)
 
