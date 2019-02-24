@@ -70,6 +70,22 @@ class FinanceTips(Action):
     def name(self):
         return "action_financeTips"
     def run(self, dispatcher, tracker, domain):
-        tips = ["Take bigger risks once in a while.", "Invest in yourself.", "Know how much you spend.", "Always have cash if you need it.", "Start saving when you are young.", "Do not increase spending when you get a raise.", "Look at your credit report.", "Use your credit card rewards.", "Save for a rainy day."]
+        tips = ["Take bigger risks once in a while.", 
+		"Invest in yourself.",
+		"Know how much you spend.", 
+		"Always have cash if you need it.", 
+		"Start saving when you are young.", 
+		"Do not increase spending when you get a raise.", 
+		"Look at your credit report.", 
+		"Use your credit card rewards.", 
+		"Save for a rainy day.",
+		"Fifteen minutes can save you fifteen percent or more on car insurance!",
+		"When purchasing goods, consider how much you will be using it!",
+		"It is wise to invest some stock options if you have some leftover!"
+		"Create budgets for yourself, whether it be with food or a car!",
+		"Don't forget to check your bank account once in a while!",
+
+		
+]
         dispatcher.utter_message(tips[randint(0,len(tips)-1)])
         return []
