@@ -25,7 +25,11 @@ public class HealthAdvice {
 			"Get tested!",
 			"Keep your head up!"
 			"Protection is key!",
-			"Don't trust everything you read online! (Including me!)"
+			"Don't trust everything you read online! (Including me!)",
+			"Power naps can reduce stress and help people regain energy! 30 minute naps are recommended",
+			"Don't ask doctors for antibiotics every time you are sick! The drugs kill good and bad bacteria indiscrimminately and can lead to drug resistant bacteria!",
+			"Always wear a helmet while biking or boarding!",
+			"Always buckle your seatbelts!"
  
 		};
 		return advice[rand.nextInt(advice.length)];
