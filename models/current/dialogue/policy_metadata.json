@@ -1,15 +1,21 @@
 {
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
-  "python": "3.5.2",
-  "policy_names": [
-    "rasa_core.policies.keras_policy.KerasPolicy",
-    "rasa_core.policies.memoization.MemoizationPolicy"
+  "trained_at": "20190223-213347",
+  "max_histories": [
+    3,
+    3
   ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "action_fingerprints": {
-    "utter_thanks": {
+    "utter_hello": {
       "slots": []
     },
-    "utter_name": {
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_help": {
+      "slots": []
+    },
+    "action_financeTips": {
       "slots": []
     },
     "action_listen": {
@@ -17,10 +23,7 @@
         "name"
       ]
     },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "action_meme": {
+    "action_healthArticles": {
       "slots": []
     },
     "action_stockInfo": {
@@ -28,12 +31,15 @@
     },
     "utter_greet": {
       "slots": []
+    },
+    "utter_thanks": {
+      "slots": []
     }
   },
   "rasa_core": "0.12.4",
-  "max_histories": [
-    3,
-    3
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy"
   ],
-  "trained_at": "20190223-001853"
+  "python": "3.5.2"
 }

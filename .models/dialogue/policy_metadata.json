@@ -1,0 +1,36 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "name"
+      ]
+    },
+    "utter_thanks": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_name": {
+      "slots": []
+    },
+    "action_stockInfo": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    }
+  },
+  "python": "3.5.2",
+  "rasa_core": "0.12.4",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "trained_at": "20190223-110054",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

@@ -38,4 +38,38 @@ class StockInfo(Action):
             res = "That was not a valid stock symbol."
             dispatcher.utter_message(res)
         return []
+class HealthArticles(Action):
+    def name(self):
+        return "action_healthArticles"
+    def run(self, dispatcher, tracker, domain):
+        try:
+            generated = set()
+            indices = []
+            inpt = str(tracker.latest_message["text"])
+            searchTopic = "health " + inpt.split("health")[1]
+            topic = inpt.split("health")[1]
+            if searchTopic == " ":
+                searchTopic = "health"
+                topic = "health"
+            req = requests.get("https://newsapi.org/v2/everything?q="+ searchTopic + "&from=2019-01-23&sortBy=publishedAt&apiKey=eea212d3003b4b5694d753f8612e47a8")
+            res = "Here are a few articles related to " + topic + ":\n\n"
+            for i in range(5):
+                gen = randint(0, len(req.json()["articles"])-1)
+                while gen in generated:
+                    gen = gen = randint(0, len(req.json()["articles"])-1)
+                generated.add(gen)
+                indices.append(gen)
+            for i in range(len(indices)):
+                res += req.json()["articles"][indices[i]]["url"] + "\n"
+            dispatcher.utter_message(res)
+        except:
+            dispatcher.utter_message("Sorry, I was unable to find any articles.")
+        return []
     
+class FinanceTips(Action):
+    def name(self):
+        return "action_financeTips"
+    def run(self, dispatcher, tracker, domain):
+        tips = ["Take bigger risks once in a while.", "Invest in yourself.", "Know how much you spend.", "Always have cash if you need it.", "Start saving when you are young.", "Do not increase spending when you get a raise.", "Look at your credit report.", "Use your credit card rewards.", "Save for a rainy day."]
+        dispatcher.utter_message(tips[randint(0,len(tips)-1)])
+        return []

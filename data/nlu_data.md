@@ -17,6 +17,23 @@
 - see you later alligator
 - we'll speak soon
 
+##intent:help
+- help
+- Help
+- HELP
+
+##intent:health
+- health fitness
+- health food
+- health diet
+- health lifestyle
+- health how do i lose weight?
+- health healthy
+- HeAlTh health
+- Health weight loss tips
+- health health
+- health vegan diet
+
 ## intent:greet
 - Hi
 - Hey
@@ -33,6 +50,41 @@
 - hello everybody
 - hello is anybody there
 - hello robot
+
+##intent:financetip
+- financetip 
+- finance tips
+- financetips
+- tips finance
+- finance
+- finance tip
+- financial tip
+- tip financial
+- Can you tell me a financial tip?
+- Tell me a financial tip
+- What is a financial tip
+- finance tip please
+- Please tell me a financial tip
+- Could you tell me a financial tip?
+- could you tell me a financial tip
+- could u msg me a finance tip
+- could u tell me a finance tip
+- what is a finance tip
+- tell me a finance tip
+- whats a finance tip
+- whats a financial tip
+- msg me a tip about finance
+- tell me a tip for my financial lifestyle
+- do you know any personal finance tips
+- do u know a finance tip
+- teach me about finance
+- teach me about money
+- what is a money tip
+- tell me a tip for money
+- how can i manage money better
+- i want to know about money
+- can you provide tips for money
+
 
 ## intent:stock
 - stock AAPL
