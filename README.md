@@ -1,4 +1,19 @@
-﻿# Rasa Stack starter-pack
+﻿#Otto the Otter Slack Bot
+Proudly built from the ground up with purely Open Source API's.
+
+##Developers: 
+
+Kevin Palani:
+ Cross-compatible language development framework
+
+Matthew Pham:
+ Otto the Otter Bot development
+
+##Special Thanks:
+Jackie Giang (Incredible artwork)
+Nathaniel Nguyen, Jacinda Chen, Conrad Ku (Having the patience to work with us and improve our project)
+
+# Rasa Stack starter-pack
 
 Looked through the [Rasa NLU](http://rasa.com/docs/nlu/) and [Rasa Core](http://rasa.com/docs/core/) documentation and ready to build your first intelligent assistant? We have some resources to help you get started! This repository contains the foundations of your first custom assistant. This starter-pack also comes with a step-by-step video tutorial which you can find [here](https://youtu.be/lQZ_x0LRUbI).  
 
