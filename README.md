@@ -10,7 +10,7 @@ Matthew Pham:
  Otto the Otter Bot development
 
 ## Special Thanks:
-Jackie Giang (Incredible artwork)
+Jackie Giang (Incredible artwork)<br>
 Nathaniel Nguyen, Jacinda Chen, Conrad Ku (Having the patience to work with us and improve our project)
 
 # Rasa Stack starter-pack
